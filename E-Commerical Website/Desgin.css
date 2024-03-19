@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+#myDIV{
+    background-color:#f4c4c4;
+    
+}
+
+
+
+#mydiv{
+    color: #282b29;
+
+}
+
+
+
+.text1 h1{
+
+    padding:9%;
+    font-family: 'Cinzel', serif;
+    
+    
+}
+.text1 p{
+    font-size: 150%;
+    padding-top: 1px;
+    font-family: serif;
+}
+
+.text1{
+    text-align: center;
+    justify-items: center;
+   
+}
+
+
+.textsec{
+        text-align: center;
+        justify-items: center;
+        height: 100vh;
+        background-color: #282b29;
+        color: #ebeded;
+        padding: 16%;
+        font-family: 'Merienda One', cursive;
+
+}
+.text{
+    text-align: center;
+    justify-items: center;
+    height: 100%;
+    background-color: #282b29;
+    color: #ebeded;
+    padding: 16%;
+    font-family: 'Denk One', sans-serif;
+
+}
+.container111 p{
+    font-family: 'Philosopher', sans-serif;
+
+}
+
+.text h1{
+    font-family: 'Merienda One', cursive;
+}
+.text2{
+    background-color: #282b29;
+    padding: 10%;
+}
+.text3{
+    padding: 10%;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition:all 3s;
+
+}
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translatex(0);
+
+}
+th,td{
+    padding: 5px;
+}
+
+.phototext{
+    background-image: url(web/img/280222_Gucci_HP.webp);
+    height: 100vh;
+    text-align: center;
+    justify-items: center;
+    padding: 9.2%;
+    
+
+}
+.phototext2{
+    background-image: url(web/img/blackpink.jpg);
+    height:100vh;
+    text-align: center;
+    justify-items: center;
+    padding: 9.2%;
+    
+
+}
+
+
+.nav-link h6{
+    color: white
+    text-decoration: none;
+    padding: 6px 20px;
+    border-bottom: 2px solid white;
+    border-radius: 15px;
+    transform: scale(1) translateY(10px);
+    transition: .5s;
+}
+
+.active,.nav-link h6:hover{
+    color:#1b669d;
+    
+}
+
+.phototext h2{
+    color: #ebeded;
+    font-size: 30vh;
+    font-family: 'Cinzel', serif;
+}
+.backwhite{
+    height: 80vh;
+    width: 100%;
+}
+.backwhite h1{
+    padding: 10%;
+    
+}
+.RaymondViedo video{
+    width: 100%;
+    
+}
+.backwhite1{
+    width: 100%;
+    height: 80vh;
+}
+.backwhite h2{
+    mix-blend-mode: screen;
+}
+
+.foo a{
+    color: #ebeded;
+}
+footer{
+    height: 85vh;
+    position: sticky;
+    background-color: #282b29;
+
+}
+.foot li{
+    list-style-type: none;
+}
+
+
+.foo h3 p{
+    color: #ebeded;
+
+}
+.footh1 h1{
+    color: #ebeded;
+    font-size:12vw; 
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    justify-content: center;
+    padding: 4%;
+}
+
+ .containerf1 p{
+    font-size: 100%;
+    color: #ebeded; 
+    font-family: 'Philosopher', sans-serif;
+} 
+
+.navbar-brand h5{
+    color: yellow;
+}
+.nav-item h6{
+    color: white;
+}
+.worktext{
+    padding: 4%;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    justify-items: center;
+    width: 100%;
+
+}
+
+
+.texts-img{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+  .picture-hover {
+    position: relative;
+  }
+  
+  .image-hover {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .picture-hover:hover .image-hover {
+    opacity: 0.8;
+  }
+  
+  .picture-hover:hover .middle {
+    opacity: 1;
+    background: none;
+  }
+  
+  .texts-img {
+    background-color: #e9dabf;
+    color:#0f2a4d;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  
+
+@media only screen and (max-width:768px){
+
+    [class*="col"] {
+        width: 100%;
+        padding-left: 30%;
+      }
+
+     .Container09{
+        width: 100%;
+        font-size: 10px;
+      }
+
+
+      [class *="container"]{
+        width: 100%;
+      }
+
+     
+    
+
+}
