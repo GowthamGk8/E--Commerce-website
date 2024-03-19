@@ -1,2 +1,2 @@
 # E--Commerce-website
-simple html and css project used bootstrap framework
+Simple Html and Css Project used Bootstrap Framework
